@@ -1,5 +1,5 @@
 name: Testing app.py
-on:[push]
+on: [push]
 jobs:
 	Testing-app:
 	runs-on:ubuntu-latest
