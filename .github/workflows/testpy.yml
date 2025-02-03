@@ -7,7 +7,7 @@ jobs:
             - name: Code Checkout
               uses: actions/checkout@v4
             - name: listing files
-              run: | #This is used for block of strings
+              run: | 
 	       ls -lrt
 	       pwd
 
