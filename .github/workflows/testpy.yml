@@ -6,10 +6,10 @@ jobs:
         steps:
             - name: Code Checkout
               uses: actions/checkout@v4
-            - name: listing files
-              run: | 
-	       ls -lrt
-	       pwd
+            - name: listing files# 
+              run: | # Block of strings
+                echo "ls -lrt"
+                pwd
 
 
 
