@@ -1,0 +1,12 @@
+name: Testing app.py
+on:[push]
+jobs:
+	Testing-app:
+	runs-on:ubuntu-latest
+	steps:
+		name: Code Checkout
+		uses: actions/checkout@v4
+		name: listing files
+		run: echo "ls -lrt"
+
+
